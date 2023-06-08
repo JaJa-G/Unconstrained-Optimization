@@ -13,7 +13,7 @@ def f1(x):
 
 def function1(x,bool_v=False):
     f=f1(x)
-    g=get_graident(f1,x)
+    g=get_gradient(f1,x)
     if bool_v==True:
         return f,g,get_hessian(f1,x)
     return f,g
@@ -28,7 +28,7 @@ def f2(x):
 
 def function2(x,bool_v=False):
     f=f2(x)
-    g=get_graident(f2,x)
+    g=get_gradient(f2,x)
     if bool_v==True:
         return f,g,get_hessian(f2,x)
     return f,g
@@ -43,7 +43,7 @@ def f3(x):
 
 def function3(x,bool_v=False):
     f=f3(x)
-    g=get_graident(f3,x)
+    g=get_gradient(f3,x)
     if bool_v==True:
         return f,g,get_hessian(f3,x)
     return f,g
@@ -58,7 +58,7 @@ def qRosenbrock(x1,x2):
 
 def function4(x,bool_v=False):
     f=fRosenbrock(x)
-    g=get_graident(fRosenbrock,x)
+    g=get_gradient(fRosenbrock,x)
     if bool_v==True:
         return f,g,get_hessian(fRosenbrock,x)
     return f,g
@@ -70,7 +70,7 @@ def f5(x):
 
 def function5(x,bool_v=False):
     f=f5(x)
-    g=get_graident(f5,x)
+    g=get_gradient(f5,x)
     if bool_v==True:
         return f,g,get_hessian(f5,x)
     return f,g
@@ -83,7 +83,7 @@ def f6(x):
 
 def function6(x,bool_v=False):
     f=f6(x)
-    g=get_graident(f6,x)
+    g=get_gradient(f6,x)
     if bool_v==True:
         return f,g,get_hessian(f6,x)
     return f,g
